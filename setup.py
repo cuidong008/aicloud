@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="aicloud",
-    version="0.0.1",
+    name="aicloudx",
+    version="0.0.2",
     author="cui dong",
     author_email="cuidong008@126.com",
     description="用于配合云平台进行模型训练",
@@ -15,7 +15,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: Apache 2.0",
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
 )
