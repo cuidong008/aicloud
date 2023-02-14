@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="aicloudx",
-    version="0.0.2",
+    version="0.0.3",
     author="cui dong",
     author_email="cuidong008@126.com",
     description="用于配合云平台进行模型训练",
